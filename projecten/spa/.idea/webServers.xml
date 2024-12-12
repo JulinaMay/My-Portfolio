@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="39754a6d-8580-453c-b7eb-3b09e89e1743" name="FTP" url="http://84820.ict-lab.nl/front/Spa">
+        <fileTransfer rootFolder="/httpdocs/front/Spa" host="web02.ict-lab.nl" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

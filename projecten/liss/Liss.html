@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lissitzky</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../css/website.css">
+    </head>
+    <body>
+    <a href="../../project.html" class="GoBack">Ga terug</a>
+        <!--- we geven ons canvas de naam mijn Canvas-->
+        <canvas id="mijnCanvas" width="1000" height="1321" style="border:1px solid #000000; background-color: rgb(243, 212, 136); margin-left: 30%; margin-right: 30%">
+            Your browser does not support the HTML5 canvas tag.</canvas>
+            
+            <script>
+            // Hieronder maken we een object van ons canvas en creëren we de (be)werkbare "context"
+            var canvasObject = document.getElementById("mijnCanvas");
+            var contextObject = canvasObject.getContext("2d");
+
+            let yPos=537;
+            let velocity= 15;
+            function move(yPos){
+              
+                canvasObject.width = 1000;
+                canvasObject.height = 1321;
+        
+                console.log(yPos);
+                while(yPos<canvasObject.height){
+                    yPos=yPos+velocity
+                //if (y+100>(canvasO;bject.height) || y<600){
+                    draw(yPos);
+                    console.log(yPos);
+                    //velocity*=-1;
+               // }
+                }
+                
+                }
+            function draw(yPos){
+
+                        
+            //Rood vierkant
+            contextObject.beginPath();
+            contextObject.moveTo(539, 921);
+            contextObject.lineTo(637, 921);            
+            contextObject.lineTo(637, 982);
+            contextObject.lineTo(539, 982);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(190, 39, 18)";
+            contextObject.fill();
+
+
+            //Rode cirkel
+            contextObject.beginPath();
+            contextObject.arc(592, 415, 200, 0, 2 * Math.PI);
+            contextObject.fillStyle = "rgb(193, 38, 18)";
+            contextObject.fill();
+
+            //Zwarte lijn
+            contextObject.beginPath();
+            contextObject.moveTo(239, 280);
+            contextObject.lineTo(312, 169);            
+            contextObject.lineTo(311, 300);
+            contextObject.lineTo(240, 299);
+            contextObject.closePath();
+            contextObject.strokeStyle = "rgb(66, 51, 22";
+            contextObject.stroke();
+
+            
+            //Rode streep
+            contextObject.beginPath();
+            contextObject.moveTo(310, 172);
+            contextObject.lineTo(325, 152);            
+            contextObject.lineTo(325, 300);
+            contextObject.lineTo(310, 300);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(204, 37, 19";
+            contextObject.fill();
+
+            //2e Rode streep
+            contextObject.beginPath();
+            contextObject.moveTo(310, 426);
+            contextObject.lineTo(325, 425);            
+            contextObject.lineTo(325, 435);
+            contextObject.lineTo(310, 435);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(204, 37, 19";
+            contextObject.fill();
+
+            //Zwarte lijn onder grijse balk
+            contextObject.beginPath();
+            contextObject.moveTo(239, 425);
+            contextObject.lineTo(311, 425);            
+            contextObject.lineTo(311, 435);
+            contextObject.lineTo(240, 435);
+            contextObject.closePath();
+            contextObject.strokeStyle = "rgb(66, 51, 22";
+            contextObject.stroke();
+
+            //Zwarte lijn onder grijse balk
+            contextObject.beginPath();
+            contextObject.moveTo(240, 434);
+            contextObject.lineTo(240, 436);            
+            contextObject.lineTo(239, 478);
+            contextObject.lineTo(240, 478);
+            contextObject.closePath();
+            contextObject.strokeStyle = "rgb(66, 51, 22";
+            contextObject.stroke();
+            
+            //3e Rode streep
+            contextObject.beginPath();
+            contextObject.moveTo(310, 480);
+            contextObject.lineTo(325, 480);            
+            contextObject.lineTo(325, 1003);
+            contextObject.lineTo(310, 1021);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(204, 37, 19";
+            contextObject.fill();
+
+            //Grijse balk naast roed streep
+            contextObject.beginPath();
+            contextObject.moveTo(325, 480);
+            contextObject.lineTo(404, 480);            
+            contextObject.lineTo(411, 499);
+            contextObject.lineTo(325, 499);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(133, 135, 148";
+            contextObject.fill();
+
+            //Zwarte lijn naast rode lange streep
+            contextObject.beginPath();
+            contextObject.moveTo(239, 479);
+            contextObject.lineTo(311, 480);            
+            contextObject.lineTo(309, 1015);
+            contextObject.lineTo(238, 921);
+            contextObject.closePath();
+            contextObject.strokeStyle = "rgb(66, 51, 22";
+            contextObject.stroke();
+
+            //Grijs voorvlak
+            contextObject.beginPath();
+            contextObject.moveTo(129, 299);
+            contextObject.lineTo(648, 306);
+            contextObject.lineTo(648, 410);
+            contextObject.lineTo(127, 406);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(109, 113, 122)";
+            contextObject.fill();
+                         
+            //Zwart ondervlak
+            contextObject.beginPath();
+            contextObject.moveTo(134, 406);
+            contextObject.lineTo(649, 410);            
+            contextObject.lineTo(675, 430);
+            contextObject.lineTo(171, 425);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(31, 31, 31)";
+            contextObject.fill();
+
+            //Lichtgrijs rechts vlak
+            contextObject.beginPath();
+            contextObject.moveTo(648, 308);
+            contextObject.lineTo(678, 328);            
+            contextObject.lineTo(675, 428);
+            contextObject.lineTo(648, 409);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(181, 183, 195)";
+            contextObject.fill();
+
+            //Lichtgrijs boven vlak
+            contextObject.beginPath();
+            contextObject.moveTo(399, 766);
+            contextObject.lineTo(438, 796);            
+            contextObject.lineTo(412, 831);
+            contextObject.lineTo(373, 804);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(213, 213, 211)";
+            contextObject.fill();
+
+            //Donker ondervlak
+            contextObject.beginPath();
+            contextObject.moveTo(372, 803);
+            contextObject.lineTo(410, 831);            
+            contextObject.lineTo(485, 995);
+            contextObject.lineTo(452, 970);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(32, 30, 31)";
+            contextObject.fill();
+
+            //Rechter grijs vlak
+            contextObject.beginPath();
+            contextObject.moveTo(410, 833);
+            contextObject.lineTo(438, 798);            
+            contextObject.lineTo(500, 976);
+            contextObject.lineTo(485, 994);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(123, 127, 136)";
+            contextObject.fill();
+
+            //2e Zwarte balk
+            contextObject.beginPath();
+            contextObject.moveTo(523, 453);
+            contextObject.lineTo(547, 454);            
+            contextObject.lineTo(546, 540);
+            contextObject.lineTo(523, 539);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(31, 29, 30)";
+            contextObject.fill();
+
+            //Grijse vlak
+            contextObject.beginPath();
+            contextObject.moveTo(547, 455);
+            contextObject.lineTo(600, 492);            
+            contextObject.lineTo(599, 575);
+            contextObject.lineTo(546, 540);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(123, 127, 136)";
+            contextObject.fill();
+
+            //geel vlak
+            contextObject.beginPath();
+            contextObject.moveTo(524, 540);
+            contextObject.lineTo(548, 540);            
+            contextObject.lineTo(599, 575);
+            contextObject.lineTo(573, 575);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(243, 212, 136)";
+            contextObject.fill();
+            
+             //Zwarte rechthoek
+             contextObject.beginPath();
+            contextObject.moveTo(600, 494);
+            contextObject.lineTo(700, 495);            
+            contextObject.lineTo(700, 575);
+            contextObject.lineTo(599, 578);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(31, 29, 30)";
+            contextObject.fill();
+
+            //Zwarte rechthoek
+            contextObject.beginPath();
+            contextObject.moveTo(582, 576);
+            contextObject.lineTo(700, 574);            
+            contextObject.lineTo(700, 830);
+            contextObject.lineTo(583, 830);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(31, 29, 30)";
+            contextObject.fill();
+
+
+            //Zwarte vlak met geel
+            contextObject.beginPath();
+            contextObject.moveTo(700, 497);
+            contextObject.lineTo(712, 512);            
+            contextObject.lineTo(709, 839);
+            contextObject.lineTo(700, 830);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(31, 29, 30)";
+            contextObject.fill();
+          
+            //Gele vlak in zwarte balk
+            contextObject.beginPath();
+            contextObject.moveTo(703, 505);
+            contextObject.lineTo(710, 513);            
+            contextObject.lineTo(709, 837);
+            contextObject.lineTo(702, 832);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(243, 212, 136)";
+            contextObject.fill();
+                      
+            //Zwarte balk
+            contextObject.beginPath();
+            contextObject.moveTo(545, 677);
+            contextObject.lineTo(731, 680);            
+            contextObject.lineTo(731, 694);
+            contextObject.lineTo(545, 693);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(31, 29, 30)";
+            contextObject.fill();
+
+            //Grijse vlak onder zwarte rechthoek
+            contextObject.beginPath();
+            contextObject.moveTo(582, 831);
+            contextObject.lineTo(702, 831);            
+            contextObject.lineTo(710, 840);
+            contextObject.lineTo(592, 840);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(173, 177, 180)";
+            contextObject.fill();
+                      
+            //Rode balk
+            contextObject.beginPath();
+            contextObject.moveTo(711, 730);
+            contextObject.lineTo(731, 731);            
+            contextObject.lineTo(731, 806);
+            contextObject.lineTo(710, 808);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(203, 37, 11)";
+            contextObject.fill();
+
+            //Roze vierkant
+            contextObject.beginPath();
+            contextObject.moveTo(731, 730);
+            contextObject.lineTo(772, 781);            
+            contextObject.lineTo(773, 846);
+            contextObject.lineTo(732, 805);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(245, 215, 207)";
+            contextObject.fill();
+
+            //Wijn rood 
+            contextObject.beginPath();
+            contextObject.moveTo(710, 809);
+            contextObject.lineTo(732, 805);            
+            contextObject.lineTo(773, 847);
+            contextObject.lineTo(753, 849);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(82, 42, 34)";
+            contextObject.fill();
+            
+                    
+            //Rood vierkant
+            contextObject.beginPath();
+            contextObject.moveTo(537, 921);
+            contextObject.lineTo(610, 921);            
+            contextObject.lineTo(610, 982);
+            contextObject.lineTo(537, 982);
+            contextObject.closePath();
+            contextObject.fillStyle = "rgb(190, 39, 18)";
+            contextObject.fill();
+
+            //Vierkant
+            let randomKleur = "red";
+            console.log(randomKleur);
+
+            contextObject.beginPath();
+            contextObject.lineTo(544, 525);
+            contextObject.rect(219, 600, 15, 0, 1 * Math.PI);
+            contextObject.closePath();
+            contextObject.fillStyle = "red";
+            contextObject.fill();
+
+
+            } //250 in MS
+            setInterval(move(yPos),3000);
+
+           </script> 
+    </body>
+</html>

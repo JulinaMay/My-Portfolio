@@ -1,0 +1,28 @@
+#navigation {
+    margin-right: 180px;
+}
+
+.subnav-hero-subnav li a:hover {
+    background: rgb(53, 58, 64);
+}
+
+#li-active{
+    background-color: rgb(133, 67, 248);
+}
+ul li {
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: rgb(156, 137, 192);
+}
+
+#Me {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+

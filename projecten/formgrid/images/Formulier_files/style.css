@@ -1,0 +1,116 @@
+body {
+    background-color:pink;
+}
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.navbar-brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.card {
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;  
+    border-style: solid;
+    border-color: black;
+    width: 90%;
+    height: 20%;
+    margin-bottom: 10px; 
+
+}
+
+
+
+
+
+.formgrid {
+    display: grid;
+    grid-template-columns: 80px 400px;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    grid-auto-flow: dense;
+    align-items: flex-start; 
+}
+
+label {
+    justify-self:end;      
+}
+
+button {
+    grid-column-start:2;   
+    width: 150px;
+    justify-self:end;
+}
+
+form {
+    width: 80%;
+    margin: 2% auto;
+}
+fieldset {
+    background-color: rgba(247, 236, 236, 1);
+    margin-bottom: 24px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid silver;
+    box-shadow: 0px 0px 48px rgba(148, 150, 147, 0.27);
+}
+legend {
+    font-size: 24px;
+    font-family: lobster;
+    text-transform: capitalize;
+    background-color: rgba(247, 236, 236, 1);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border: 1px solid transparent;
+    padding: 4px 12px;
+    color: rgba(0, 0, 0, 0.46);
+    text-shadow: 1px -2px 2px rgba(242, 242, 243, 0.64);
+    border: 1px solid silver;
+}
+label {
+    display: block;
+    margin-bottom: 24px;
+}
+label >span {
+    display: inline-block;
+    margin-bottom: 4px;
+    color: rgba(63, 63, 56, 1);
+}
+input {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: -1px -2px 3px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    padding-right: 45px;
+    text-align: center;
+    color: rgba(101, 100, 90, 1);
+}
+input:required{
+    background: url("mondatory.png") no-repeat 96% center white;
+    outline: 2px solid transparent;
+}
+input:valid{
+    background: url("valid.png") no-repeat 96% center white;
+    outline: 2px solid rgba(76, 168, 76, 0.89);
+}
+input:invalid:focus{
+    background: url("invalid.png") no-repeat 96% center white;
+    outline: 2px solid rgba(200, 76, 76, 0.89);
+}
+input[type="submit"]:valid{
+    outline-color: transparent;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    background-image: none;
+    padding-right: 8px;
+}
+input[type="submit"]:valid:hover,
+input[type="submit"]:valid:focus{
+    cursor: pointer;
+    box-shadow: none;
+}

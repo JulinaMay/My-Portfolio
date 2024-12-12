@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dierentuin</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link href="css/dierentuin.css" rel="stylesheet" type="text/css" />
+	<!-- jquery en jquery ui -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<!-- eigen js -->
+	<script src="js/dierentuin.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<h1>DE DIERENTUIN</h1>
+	</div>
+	<div id="teller">
+		<table>
+			<tr>
+				<td>Totaal aantal dieren:</td><td id="totaal">0</td>
+			</tr>
+			<tr>
+				<td>aantal giraffes:</td><td id="aantal_giraffe">0</td>
+			</tr>
+			<tr>
+				<td>aantal leeuwen:</td><td id="aantal_leeuw">0</td>
+			</tr>
+			<tr>
+				<td>aantal apen:</td><td id="aantal_aap">0</td>
+			</tr>
+			<tr>
+				<td>aantal pinguins:</td><td id="aantal_pinguin">0</td>
+			</tr>
+			<tr>
+				<td>aantal slangen:</td><td id="aantal_slang">0</td>
+			</tr>
+		</table>
+	</div>
+	<div id="zoo">
+		<div class="verplaats" id="dieren">
+			<img class="drag" id="giraffe" src="afb/giraffe.png"/>
+			<img class="drag" id="leeuw" src="afb/lion.png"/>
+			<img class="drag" id="aap" src="afb/monkey.png"/>
+			<img class="drag" id="pinguin" src="afb/pinguin.png"/>
+			<img class="drag" id="slang" src="afb/snake.png"/>
+		</div>
+		<div class="zetneer" id="tuin">
+         	<div class="drop" id="drop_leeuw">leeuw</div>
+			<div class="drop" id="drop_giraffe">giraffe</div>
+          <div class="drop" id="drop_aap">aap</div>
+          <div class="drop" id="drop_pinguin">pinguin</div>
+          <div class="drop" id="drop_slang">slang</div>
+		</div>
+	</div>
+	<a href="../../project.html">Ga hier terug </a>
+</div>
+</body>
+</html>
