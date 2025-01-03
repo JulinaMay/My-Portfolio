@@ -28,6 +28,13 @@ document.getElementById("search-input").addEventListener("input", function () {
 
 document.getElementById("search-input").addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
-        document.getElementById("search-button").click();
+        const searchInput = this.value.toLowerCase().trim();
+        const validRoutes = ["home", "over", "skills", "projects", "contact"];
+
+        if (validRoutes.includes(searchInput)) {
+            window.location.href = `../${searchInput}/`;
+        } else {
+            alert("Invalid search term");
+        }
     }
 });
