@@ -65,6 +65,7 @@ ul li a:hover::after {
 .navbar-icons {
     margin-left: 40px;
 }
+
 /* Hamburger menu styling */
 .menu-toggle {
     display: none;
@@ -73,13 +74,16 @@ ul li a:hover::after {
     color: #000;
 }
 
-/* Responsief gedrag */
+.menu-toggle i {
+    font-size: 24px;
+}
+
 @media screen and (max-width: 768px) {
     .menu-toggle {
         display: block;
     }
 
-    ul {
+    .nav-links {
         display: none;
         flex-direction: column;
         position: absolute;
@@ -90,13 +94,14 @@ ul li a:hover::after {
         border-radius: 5px;
         padding: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 10;
     }
 
-    ul.show {
-        display: flex;
+    .nav-links.show {
+        display: flex; 
     }
 
-    ul li {
+    .nav-links li {
         margin: 10px 0;
     }
         
