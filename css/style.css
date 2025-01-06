@@ -65,19 +65,55 @@ ul li a:hover::after {
 .navbar-icons {
     margin-left: 40px;
 }
-.banner {
-    display: flex;
-    margin-top: 80px;
+/* Hamburger menu styling */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
 }
-.left-column, .right-column {
-    padding-top: 8%;
-    padding-left: 10%;
-    flex-basis: 60%;
-}
-.right-column img {
-    float: center;
-    width: 50%;
-    border-radius: 50px;
+
+/* Responsief gedrag */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    ul.show {
+        display: flex;
+    }
+
+    ul li {
+        margin: 10px 0;
+    }
+        
+    .banner {
+        display: flex;
+        margin-top: 80px;
+    }
+    .left-column, .right-column {
+        padding-top: 8%;
+        padding-left: 10%;
+        flex-basis: 60%;
+    }
+    .right-column img {
+        float: center;
+        width: 50%;
+        border-radius: 50px;
+    }
 }
 .search-box {
     width: 45%;
