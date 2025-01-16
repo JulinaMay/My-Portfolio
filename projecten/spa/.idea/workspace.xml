@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aff1d498-e76b-4bdc-a466-ff96628caa3e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ksCfhGxWvTuai6rxEi7XHUpSt2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aff1d498-e76b-4bdc-a466-ff96628caa3e" name="Default Changelist" comment="" />
+      <created>1606480016626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606480016626</updated>
+      <workItem from="1606480017837" duration="2047000" />
+      <workItem from="1606482414976" duration="523000" />
+      <workItem from="1607690105092" duration="3336000" />
+      <workItem from="1610714058173" duration="3990000" />
+      <workItem from="1611318591907" duration="1112000" />
+      <workItem from="1611322044028" duration="1004000" />
+      <workItem from="1611569707428" duration="1238000" />
+      <workItem from="1611912012640" duration="1715000" />
+      <workItem from="1611920150382" duration="4151000" />
+      <workItem from="1612120962751" duration="1649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="185" key="#Deployment" timestamp="1606482441452">
+      <screen x="0" y="23" width="1920" height="984" />
+    </state>
+    <state x="526" y="185" key="#Deployment/0.23.1920.984@0.23.1920.984" timestamp="1606482441452" />
+    <state x="526" y="185" key="#Deployment/0.23.1920.986@0.23.1920.986" timestamp="1606481503481" />
+    <state x="1230" y="440" key="NewPhpFileDialog" timestamp="1611923113104">
+      <screen x="0" y="23" width="1920" height="980" />
+    </state>
+    <state x="1230" y="440" key="NewPhpFileDialog/0.23.1920.980@0.23.1920.980" timestamp="1607690658967" />
+    <state x="1230" y="443" key="NewPhpFileDialog/0.23.1920.986@0.23.1920.986" timestamp="1606481085220" />
+    <state x="1230" y="440" key="NewPhpFileDialog/1920.23.1920.1057/0.23.1920.980@0.23.1920.980" timestamp="1611923113104" />
+    <state x="469" y="152" key="SettingsEditor" timestamp="1611923918054">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state x="469" y="152" key="SettingsEditor/1920.23.1920.1057/0.23.1920.982@0.23.1920.982" timestamp="1611923918054" />
+    <state x="833" y="257" key="ftp.server.browser" timestamp="1606481471712">
+      <screen x="0" y="23" width="1920" height="986" />
+    </state>
+    <state x="833" y="257" key="ftp.server.browser/0.23.1920.986@0.23.1920.986" timestamp="1606481471712" />
+    <state x="959" y="343" key="publish.login" timestamp="1612122430265">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="1278" y="410" key="publish.login/0.23.1920.980@0.23.1920.980" timestamp="1607690124337" />
+    <state x="959" y="343" key="publish.login/0.25.1440.801@0.25.1440.801" timestamp="1612122430265" />
+    <state x="959" y="343" key="publish.login/0.25.1440.805@0.25.1440.805" timestamp="1612121312911" />
+    <state x="1278" y="410" key="publish.login/1920.23.1920.1057/0.23.1920.980@0.23.1920.980" timestamp="1611569782068" />
+    <state x="1278" y="412" key="publish.login/1920.23.1920.1057/0.23.1920.984@0.23.1920.984" timestamp="1611912375525" />
+    <state x="1278" y="440" key="publish.login/1920.23.1920.980/0.23.1920.1057@0.23.1920.1057" timestamp="1611322538708" />
+  </component>
+</project>

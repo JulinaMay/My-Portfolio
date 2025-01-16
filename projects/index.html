@@ -7,112 +7,113 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css?
-    family=Dosis&display=swap" rel="stylesheet">
+    <script src="scripts/script.js" defer></script>
   </head>
   <body>
-    <div class="hero">
-        <div class="navbar">
+    <!-- Navbar -->
+    <div class="main-container">
+        <nav class="navbar">
           <img src="../img/logo.png">
-          <ul>
+          <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul class="nav-links" id="nav-links">
               <li><a href="../"> Home</a></li>
               <li><a href="../about/"> Over mij</a></li>
               <li><a href="../skills/"> Skills</a></li>
               <li><a href="#"> Projects</a></li>
               <li><a href="../contact/"> Contact</a></li>
           </ul>
-          <!-- <div class="navbar-icons">
-            <img src="img/bell.png">
-            <img src="img/user.png">
-            <img src="img/menu.png">
-        </div> -->
-        </div>
+        </nav>
+
+        <!-- Content container -->
         <div class="container">
+          <!-- Projects -->
           <h1>Projecten</h1>
-         <div class="row">
-          <a href="../img/ProjectD.mp4" target="_blank">
-            <div class="service">
-              <i class="fa fa-film"></i>
-              <h2>Project D</h2>
-              <p>Een grafische gebruikersinterface (GUI) ontwikkeld voor het bedrijf PTI, gericht op het verbeteren van de medewerkerservaring en de interactie met hun software.</p>
+          <div class="row">
+            <a href="../img/ProjectD.mp4" target="_blank">
+              <div class="project-item">
+                <i class="fa fa-film"></i>
+                <h2>Project D</h2>
+                <p>Een grafische gebruikersinterface (GUI) ontwikkeld voor het bedrijf PTI, gericht op het verbeteren van de medewerkerservaring en de interactie met hun software.</p>
+              </div>
+            </a>
+            <a href="..img/StarLightCinema_Demo_Team6.mov" target="_blank">
+              <div class="project-item">
+                <i class="fa fa-film"></i>
+                <h2>Project B</h2>
+                <p>Een terminalgebaseerde applicatie die gebruikers in staat stelt om films te zoeken en te bekijken, met een focus op gebruiksgemak en snelheid.</p>
+              </div>
+            </a>          
+            <a href="projecten/Fluid/bootstrap.html">
+            <div class="project-item">
+              <i class="fas fa-laptop-code"></i>
+              <h2>Bootstrap webdesign</h2>
+              <p>Hier heb ik een responsive bootstrap pagina gemaakt. </p>
             </div>
-          </a>
-          <a href="..img/StarLightCinema_Demo_Team6.mov" target="_blank">
-            <div class="service">
-              <i class="fa fa-film"></i>
-              <h2>Project B</h2>
-              <p>Een terminalgebaseerde applicatie die gebruikers in staat stelt om films te zoeken en te bekijken, met een focus op gebruiksgemak en snelheid.</p>
+            </a>
+            <a href="projecten/Fluid/uikit/uikit.html">
+              <div class="project-item">
+              <i class="fas fa-laptop-code"></i>
+                <h2>Uikit webdesign</h2>
+                <p>Hier heb ik een responsive website gemaakt in uikit. </p>
+              </div>
+            </a>
+            <a href="projecten/Fluid/Foundation/foundation.html">
+              <div class="project-item">
+              <i class="fas fa-laptop-code"></i>
+                <h2>Foundation webdesign</h2>
+                <p>Hier heb ik een responsive webpagina met Foundation gemaakt. </p>
+              </div>
+            </a>
+            <a href="projecten/holygrail/Holygrail.html">
+            <div class="project-item">
+              <i class="fas fa-trophy"></i>
+              <h2>Holygrail layout</h2>
+              <p>Een webpagina-indeling met meerdere kolommen van gelijke hoogte. </p>
             </div>
-          </a>          
-          <a href="projecten/Fluid/bootstrap.html">
-           <div class="service">
-            <i class="fas fa-laptop-code"></i>
-             <h2>Bootstrap webdesign</h2>
-             <p>Hier heb ik een responsive bootstrap pagina gemaakt. </p>
-           </div>
-          </a>
-          <a href="projecten/Fluid/uikit/uikit.html">
-            <div class="service">
-             <i class="fas fa-laptop-code"></i>
-              <h2>Uikit webdesign</h2>
-              <p>Hier heb ik een responsive website gemaakt in uikit. </p>
+            </a>
+            <a href="projecten/spa/opdracht.html">
+              <div class="project-item">
+                <i class="fas fa-list-ul"></i>
+                <h2>To do list</h2>
+                <p>Dit is een TODO list waarin je 'taken' kan bijhouden wat je nog moet gaan doen. </p>
+              </div>
+            </a>
+            <a href="projecten/dierentuin/dierentuin.html">
+            <div class="project-item">
+              <i class="fas fa-paw"></i>
+              <h2>Dierentuin</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
             </div>
-           </a>
-           <a href="projecten/Fluid/Foundation/foundation.html">
-            <div class="service">
-             <i class="fas fa-laptop-code"></i>
-              <h2>Foundation webdesign</h2>
-              <p>Hier heb ik een responsive webpagina met Foundation gemaakt. </p>
+            </a>
+            <a href="../img/doggy.mp4" target="_blank">
+            <div class="project-item">
+              <i class="fas fa-dog"></i>
+              <h2>Swap the dog</h2>
+              <p>Als je op het 'verwissel' knopje klik veranderd de afbeelding, gemaakt met wat javascript. </p>
             </div>
-           </a>
-          <a href="projecten/holygrail/Holygrail.html">
-           <div class="service">
-            <i class="fas fa-trophy"></i>
-             <h2>Holygrail layout</h2>
-             <p>Een webpagina-indeling met meerdere kolommen van gelijke hoogte. </p>
-           </div>
-          </a>
-          <a href="projecten/spa/opdracht.html">
-            <div class="service">
-              <i class="fas fa-list-ul"></i>
-              <h2>To do list</h2>
-              <p>Dit is een TODO list waarin je 'taken' kan bijhouden wat je nog moet gaan doen. </p>
+            </a>
+            <a href="../img/liz.jpg" target="_blank">
+            <div class="project-item">
+              <i class="fas fa-palette"></i>
+              <h2>Lissitsky</h2>
+              <p>Een Lissitsky nagemaakt in code. </p>
             </div>
-           </a>
-          <a href="projecten/dierentuin/dierentuin.html">
-           <div class="service">
-            <i class="fas fa-paw"></i>
-             <h2>Dierentuin</h2>
-             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-           </div>
-          </a>
-          <a href="../img/doggy.mp4" target="_blank">
-           <div class="service">
-            <i class="fas fa-dog"></i>
-             <h2>Swap the dog</h2>
-             <p>Als je op het 'verwissel' knopje klik veranderd de afbeelding, gemaakt met wat javascript. </p>
-           </div>
-          </a>
-          <a href="../img/liz.jpg" target="_blank">
-           <div class="service">
-            <i class="fas fa-palette"></i>
-             <h2>Lissitsky</h2>
-             <p>Een Lissitsky nagemaakt in code. </p>
-           </div>
-          </a>
-          <a href="projecten/game/index.html">
-           <div class="service">
-            <i class="fas fa-gamepad"></i>
-             <h2>Move Boo</h2>
-             <p>Beweeg het spookje met je arrow keys. </p>
-           </div>
-          </a>
+            </a>
+            <a href="projecten/game/index.html">
+            <div class="project-item">
+              <i class="fas fa-gamepad"></i>
+              <h2>Move Boo</h2>
+              <p>Beweeg het spookje met je arrow keys. </p>
+            </div>
+            </a>
 
-         </div>
+          </div>
         </div>
-
     </div>
-
   </body>
 </html>

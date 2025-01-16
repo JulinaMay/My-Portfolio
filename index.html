@@ -1,76 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Home</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css?
-    family=Dosis&display=swap" rel="stylesheet">
-    <script src="scripts/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js" defer></script>
 </head>
-<body>    
-    <div class="hero">
-    <div class="navbar">
-        <img src="../img/logo.png">
-        <ul class="nav-links" id="nav-links">
-            <li><a href="#"> Home</a></li>
-            <li><a href="../about/"> Over mij</a></li>
-            <li><a href="../skills/"> Skills</a></li>
-            <li><a href="../projects/"> Projects</a></li>
-            <li><a href="../contact/"> Contact</a></li>
-        </ul>
-        <!-- <div class="navbar-icons">
-            <img src="img/bell.png">
-            <img src="img/user.png">
-            <img src="img/menu.png">
-        </div> -->
-        </div>
-    <div class="container2">
-    <div class="banner">
-        <div class="left-column">
-            <div class="search-box">
-                <img src="../img/search.png">
-                <input type="text" id="search-input" placeholder="Zoek..." />
-                <p id="search-error" style="color: red; display: none;">Ongeldige zoekterm!</p>
-                
+<body>
+    <div class="main-container">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <img src="../img/logo.png" alt="Logo">
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
             </div>
-            
-            <h1>Port<span>folio</span></h1>
-            <h3>Bekijk hier delen van<span> mijn werk</span></h3>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="../about/">Over mij</a></li>
+                <li><a href="../skills/">Skills</a></li>
+                <li><a href="../projects/">Projects</a></li>
+                <li><a href="../contact/">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Banner Section -->
+        <div class="banner">
+            <div class="left-column">
+
+                <!-- Text Content -->
+                <h1>Port<span>folio</span></h1>
+                <h3>Bekijk hier delen van<span> mijn werk</span></h3>
                 <p>
-                Hallo! Mijn naam is Julina Mercera, ik ben 21 jaar oud en ik ben momenteel bezig met mijn studie HBO Informatica.<br>
-                Naast mijn studie ben ik ook actief in het verbeteren van mijn vaardigheden door middel van het volgen van verschillende cursussen, projecten en samenwerking met anderen.
+                    Hallo! Mijn naam is Julina Mercera, ik ben 21 jaar oud en ik ben momenteel bezig met mijn studie HBO Informatica.
+                    Naast mijn studie ben ik ook actief in het verbeteren van mijn vaardigheden door middel van het volgen van verschillende cursussen, projecten en samenwerking met anderen.
                 </p>
                 <p>
-                <b>Wat doe ik?</b><br>
-                Op deze website kun je meer te weten komen over mijn werk en projecten.
+                    <b>Wat doe ik?</b><br>
+                    Op deze website kun je meer te weten komen over mijn werk en projecten.
                 </p>
                 <p>
-                <b>Wat kun je verwachten?</b><br>
-                    Mijn projecten: Hier vind je een overzicht van de projecten waaraan ik heb gewerkt, van applicaties tot websites, en alles daartussenin.
-                    Mijn vaardigheden: Ik heb ervaring in verschillende programmeertalen zoals Python, JavaScript, en HTML/CSS, en werk ook regelmatig met frameworks zoals React en Bootstrap.
+                    <b>Wat kun je verwachten?</b><br>
+                    Mijn projecten: Hier vind je een overzicht van de projecten waaraan ik heb gewerkt, van applicaties tot websites, en alles daartussenin.<br>
+                    Mijn vaardigheden: Ik heb ervaring in verschillende programmeertalen zoals Python, JavaScript, en HTML/CSS, en werk ook regelmatig met frameworks zoals React en Bootstrap.<br>
                     Mijn contactinformatie: Heb je vragen of wil je gewoon met mij in contact komen? Aarzel niet om een bericht achter te laten via het contactformulier.
                 </p>
-                <br>
-            <div class="btn">
-                <a href="../about/"><button type="button" class="primary-btn">Meer over mij</button></a>
-                <button type="button">Heeft geen functie</button>
+                
+                <!-- Buttons -->
+                <div class="btn">
+                    <a href="../about/"><button type="button" class="primary-btn">Meer over mij</button></a>
+                    <a href="img/julina mercera.pdf" target="_blank" rel="noopener noreferrer"><button type="button">CV</button></a>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/julinamercera/" target="_blank" rel="noopener noreferrer"><img src="../img/linked.png" alt="LinkedIn"></a>
+                </div>
             </div>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/julinamercera/"><img src="../img/linked.png"></a>
-                <a href="../img/julina mercera.pdf"><img src="../img/cv.png"></a>
+
+            <!-- Right Column with Image -->
+            <div class="right-column">
+                <img src="../img/headshotwithpink.png" alt="Julina Mercera">
             </div>
         </div>
-            
-        <div class="right-column">
-            <img src="../img/headshotwithpink.png">
-        </div>
     </div>
-    </div>
-    </div>
-  </body>
+</body>
 </html>

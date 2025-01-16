@@ -7,51 +7,59 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css?
-    family=Dosis&display=swap" rel="stylesheet">
+    <script src="../scripts/script.js" defer></script>
 </head>
 <body>    
-    <div class="hero">
-    <div class="navbar">
-        <img src="../img/logo.png">
-        <ul> 
-            <li><a href="../"> Home</a></li>
-            <li><a href="#"> Over mij</a></li>
-            <li><a href="../skills/"> Skills</a></li>
-            <li><a href="../projects/"> Projects</a></li>
-            <li><a href="../contact/"> Contact</a></li>
-        </ul>
-        <!-- <div class="navbar-icons">
-            <img src="img/bell.png">
-            <img src="img/user.png">
-            <img src="img/menu.png">
-        </div> -->
-        </div>
-    <div class="container5">
-        <div class="box">
-            <img src="../img/headshotwithpink.png" alt="" class="box-img">
-            <br>
-            <h1>Julina Mercera</h1>
-            <h3>Over mij</h3>
-            <br>
-            <p>
-                Hoi, ik ben Julina Mercera en ik ben 21 jaar oud. Op dit moment ben ik bezig met mijn tweede jaar van de HBO Informatica.
-                Tot nu toe heb ik al vakken gevolgd zoals OOP (Objectgeoriënteerd Programmeren), webontwikkeling en algoritmes, en ik ben echt gepassioneerd geraakt door de wereld van softwareontwikkeling.
-                Naast de technische kant, heb ik ook veel geleerd van groepsprojecten, waar ik mijn teamwerk- en communicatieskills verder heb kunnen ontwikkelen.
+    <div class="main-container">
+        <nav class="navbar">
+            <img src="../img/logo.png" alt="Logo">
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links"> 
+                <li><a href="../"> Home</a></li>
+                <li><a href="#"> Over mij</a></li>
+                <li><a href="../skills/"> Skills</a></li>
+                <li><a href="../projects/"> Projects</a></li>
+                <li><a href="../contact/"> Contact</a></li>
+            </ul>
+        </nav>
 
-                In mijn vrije tijd kijk ik graag naar true crime video's en speel ik videogames met vrienden.
-                Ik vind het ook superleuk om verschillende cursussen te volgen om mijn kennis van programmeren steeds verder uit te breiden.
-            <br> 
-        
-            </p>
-            <br>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/julinamercera/"><img src="img/linked.png"></a>
-                <a href="../img/julina mercera.pdf"><img src="img/cv.png"></a>
+        <div class="container" id="aboutme">
+            <div class="box">
+                <img src="../img/headshotwithpink.png" alt="" class="box-img">
+                <br>
+                <h1>Julina Mercera</h1>
+                <h3>Over mij</h3>
+                <br>
+                <p>
+                    Hoi, ik ben Julina Mercera en ik ben 21 jaar oud.
+                    Op dit moment ben ik bezig met mijn tweede jaar van de HBO Informatica.
+                </p>
+                <br>
+                <p>
+                    Tot nu toe heb ik al vakken gevolgd zoals OOP (Objectgeoriënteerd Programmeren),
+                    webontwikkeling en algoritmes, en ik ben echt gepassioneerd geraakt door de wereld van softwareontwikkeling.<br>
+                    Naast de technische kant, heb ik ook veel geleerd van groepsprojecten,
+                    waar ik mijn teamwerk- en communicatieskills verder heb kunnen ontwikkelen.
+                </p>
+                <br>
+                <p>
+                    In mijn vrije tijd kijk ik graag naar true crime video's en speel ik videogames met vrienden.
+                    Ik vind het ook superleuk om verschillende cursussen te volgen om mijn kennis van programmeren steeds verder uit te breiden.
+                <br> 
+                </p>
+                <br>
+                <!-- Buttons -->
+                <div class="btn">
+                    <a href="https://www.linkedin.com/in/julinamercera/" target="_blank" rel="noopener noreferrer"><button type="button" class="primary-btn">LinkedIn</button></a>
+                    <a href="../img/julina mercera.pdf" target="_blank" rel="noopener noreferrer"><button type="button" class="primary-btn">CV</button></a>
+                </div>
             </div>
         </div>
     </div>
-
   </body>
 </html>

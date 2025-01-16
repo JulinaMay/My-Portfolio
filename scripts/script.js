@@ -1,11 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.getElementById("menu-toggle");
-    const navLinks = document.getElementById("nav-links");
-
-    menuToggle.addEventListener("click", function () {
-        navLinks.classList.toggle("show");
-    });
+document.getElementById('menu-toggle').addEventListener('click', function () {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('show');
 });
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const searchInputField = document.getElementById("search-input");
